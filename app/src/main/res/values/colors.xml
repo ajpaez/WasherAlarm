@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2695BD</color>
+    <color name="colorPrimaryDark">#2695BD</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--http://stackoverflow.com/questions/11285961/how-to-make-a-background-transparent-20-in-android -->
+    <color name="whiteTransparent">#BFFFFFFF</color>
+</resources>

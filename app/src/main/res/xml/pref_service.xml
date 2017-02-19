@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Sensibilidad">
+        <com.apr.washeralarm.ui.config.SeekBarPreference
+            android:defaultValue="1"
+            android:max="100"
+            android:dialogMessage="@string/pref_sensibilidad_dialog_tittle"
+            android:key="@string/pref_sensibilidad_key"
+            android:summary="1"
+            android:title="@string/pref_sensibilidad_tittle"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Tiempo">
+
+        <com.apr.washeralarm.ui.config.SeekBarPreference
+            android:defaultValue="5"
+            android:max="10"
+            android:dialogMessage="@string/pref_tiempo_dialog_tittle"
+            android:key="@string/pref_tiempo_key"
+            android:summary="5"
+            android:title="@string/pref_tiempo_tittle"
+            />
+
+    </PreferenceCategory>
+</PreferenceScreen>
