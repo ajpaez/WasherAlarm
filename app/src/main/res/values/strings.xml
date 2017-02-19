@@ -1,51 +1,56 @@
 <resources>
     <string name="app_name">WasherAlarm</string>
 
-    <string name="notificacion_fin_lavado_titulo">Fin de lavado</string>
-    <string name="notificacion_fin_lavado_texto">El lavado ha concluido</string>
-    <string name="notificacion_fin_lavado_info"></string>
+    <string name="notificacion_fin_lavado_titulo">End washing</string>
+    <string name="notificacion_fin_lavado_texto">The washing is over</string>
 
     <!-- Strings related to menu Settings -->
-    <string name="action_settings">Configuración</string>
+    <string name="action_settings">Settings</string>
 
     <!-- Strings related to Settings -->
-    <string name="title_activity_settings">Configuración</string>
+    <string name="title_activity_settings">Setting</string>
 
     <!-- Notificaciones -->
-    <string name="pref_header_notifications">Notificaciones</string>
+    <string name="pref_header_notifications">Noficitations</string>
+
     <!-- Notificacion Local -->
+    <string name="pref_notificacion_local_group_title">Local</string>
     <string name="pref_notificacion_local_key">notificacion_local_activate</string>
-    <string name="pref_notificacion_local_tittle">Notificacion Local</string>
-    <string name="pref_notificacion_local_summary">Muestra una notificación en la barra superior</string>
+    <string name="pref_notificacion_local_tittle">Local Notification</string>
+    <string name="pref_notificacion_local_summary">Show notification in status bar</string>
 
     <!-- Notificacion Externa -->
-    <string name="pref_notificacion_externa_tittle">Notificacion Externa</string>
+    <string name="pref_notificacion_externa_group_title">Externa</string>
+    <string name="pref_notificacion_externa_tittle">External Notification</string>
     <string name="pref_notificacion_externa_key">notificacion_externa_activate</string>
-    <string name="pref_externa_notificacion_email_sender_title">Email emisor</string>
     <string name="pref_notificacion_externa_email_sender_key">notificacion_externa_email_sender</string>
-    <string name="pref_externa_notificacion_email_password_title">Contraseña</string>
+    <string name="pref_externa_notificacion_email_password_title">Password</string>
     <string name="pref_notificacion_externa_email_password_key">notificacion_externa_email_password</string>
-    <string name="pref_notificacion_externa_email_password_default_value"></string>
-    <string name="pref_externa_notificacion_email_recipient_title">Email receptor</string>
+    <string name="pref_externa_notificacion_email_recipient_title">Receiver email</string>
     <string name="pref_notificacion_externa_email_recipient_key">notificacion_externa_email_recipient</string>
-    <string name="pref_notificacion_externa_summary">Envia un email a la dirección indicada</string>
+    <string name="pref_notificacion_externa_summary">Send an email to the indicated address</string>
     <string name="pref_notificacion_externa_email_default_value">email@email.com</string>
 
-    <string name="notificacion_externa_toast_enviada">Notificación enviada por email</string>
+    <string name="notificacion_externa_toast_enviada">Notification sent by email</string>
 
     <!-- Ajustes servicio -->
-    <!-- Sensibilidad y tiempo -->
-    <string name="pref_title_header_service">Sensibilidad y tiempo</string>
-    <!-- Sensibilidad -->
-    <string name="pref_sensibilidad_tittle">Sensibilidad</string>
-    <string name="pref_sensibilidad_key">sensibilidad</string>
-    <string name="pref_sensibilidad_dialog_tittle">Grado de sensibilidad [ Sens. alta > Sens. baja]</string>
-    <!-- Tiempo -->
-    <string name="pref_tiempo_tittle">Tiempo</string>
-    <string name="pref_tiempo_key">tiempo</string>
-    <string name="pref_tiempo_dialog_tittle">Tiempo de espera para notificar [1-10 min]</string>
-    <string name="pref_header_tiempo">Tiempo para notificar desde que se detuvo el lavado</string>
+    <string name="pref_selected_true">Yes</string>
+    <string name="pref_selected_false">No</string>
 
+    <!-- Sensibilidad y tiempo -->
+    <string name="pref_title_header_service">Sensitivity and Timer</string>
+
+    <!-- Sensibilidad -->
+    <string name="pref_sensibilidad_tittle">sensitivity</string>
+    <string name="pref_sensibilidad_dialog_tittle">Sensitivity degree [High Sensitivity> Low Sensitivity]</string>
+
+    <!-- Tiempo -->
+    <string name="pref_tiempo_tittle">Time</string>
+    <string name="pref_tiempo_key">time</string>
+    <string name="pref_tiempo_dialog_tittle">Time to notify[1-10 min]</string>
+    <string name="pref_header_tiempo">Time to notify since the washing stopped</string>
+    <string name="pref_externa_notificacion_email_sender_title">Sender email</string>
+    <string name="pref_sensibilidad_key">sensitivity</string>
 
 
 </resources>

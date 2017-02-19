@@ -1,6 +1,6 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <PreferenceCategory android:title="Local">
+    <PreferenceCategory android:title="@string/pref_notificacion_local_group_title">
         <SwitchPreference
             android:defaultValue="true"
             android:key="@string/pref_notificacion_local_key"
@@ -8,7 +8,7 @@
             android:title="@string/pref_notificacion_local_tittle" />
 
     </PreferenceCategory>
-    <PreferenceCategory android:title="Externa">
+    <PreferenceCategory android:title="@string/pref_notificacion_externa_group_title">
         <SwitchPreference
             android:defaultValue="false"
             android:key="@string/pref_notificacion_externa_key"
@@ -16,7 +16,7 @@
             android:title="@string/pref_notificacion_externa_tittle" />
         <EditTextPreference
             android:capitalize="words"
-            android:defaultValue="@string/pref_notificacion_externa_email_default_value"
+            android:hint="@string/pref_notificacion_externa_email_default_value"
             android:key="@string/pref_notificacion_externa_email_sender_key"
             android:maxLines="1"
             android:selectAllOnFocus="true"
@@ -26,7 +26,7 @@
             android:inputType="textWebEmailAddress" />
         <EditTextPreference
             android:capitalize="words"
-            android:defaultValue="@string/pref_notificacion_externa_email_password_default_value"
+            android:hint="@string/pref_externa_notificacion_email_password_title"
             android:inputType="textWebPassword"
             android:key="@string/pref_notificacion_externa_email_password_key"
             android:maxLines="1"
