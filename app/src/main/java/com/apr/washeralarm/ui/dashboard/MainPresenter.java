@@ -94,7 +94,7 @@ public class MainPresenter implements MainContract.Presenter
         NotificationCenterDto mNotificationCenterDto = null;
         String titulo = mContext.getString(R.string.notificacion_fin_lavado_titulo);
         String texto = mContext.getString(R.string.notificacion_fin_lavado_texto);
-        String info = mContext.getString(R.string.notificacion_fin_lavado_info);
+        String info = mContext.getString(R.string.notificacion_fin_lavado_texto);
 
         switch (notificationTypeEndWash){
             case NotificationCenter.NOTIFICATION_TYPE_LOCAL_END_WASH:

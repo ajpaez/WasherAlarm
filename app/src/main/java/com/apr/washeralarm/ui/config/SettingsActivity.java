@@ -3,6 +3,7 @@ package com.apr.washeralarm.ui.config;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.EditTextPreference;
@@ -52,7 +53,9 @@ public class SettingsActivity extends AppCompatPreferenceActivity
             }
             else if (preference instanceof SwitchPreference)
             {
-                preference.setSummary(Boolean.class.cast(value) ? "Si" : " No");
+                String yesSwitch = preference.getContext().getString(R.string.pref_selected_true);
+                String noSwitch = preference.getContext().getString(R.string.pref_selected_false);
+                preference.setSummary(Boolean.class.cast(value) ? yesSwitch : noSwitch);
             }
             else if (preference instanceof EditTextPreference)
             {
